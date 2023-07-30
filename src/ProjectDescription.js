@@ -47,7 +47,7 @@ function ProjectDescription({text, projectName, technologies, media}) {
         />
     }
     if (!Object.is(media.picture, null)) {
-        image = <img className={projectName.replace(" ", "-") + "-picture"} src={media.picture} />
+        image = <img className={projectName.replace(" ", "-") + "-picture"} src={media.picture} alt={""} />
     }
 
     return(
